@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ChineseApps"
+        android:title="Chinese Apps"
+        android:icon="@drawable/ic_delete_forever"
+        />
+    <item
+        android:id="@+id/Alternatives"
+        android:title="Alternative Apps"
+        android:icon="@drawable/ic_cloud_download"
+        />
+    <item
+        android:id="@+id/AboutUs"
+        android:title="About Us"
+        android:icon="@drawable/ic_info"
+        />
+
+
+</menu>

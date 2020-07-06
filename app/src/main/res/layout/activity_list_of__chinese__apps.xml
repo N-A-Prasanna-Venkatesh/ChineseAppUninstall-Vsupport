@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".List_of_Chinese_Apps"
+    android:background="@android:color/black">
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:background="@android:color/black"
+        android:scrollbars="vertical"
+        android:id="@+id/recyclerView"
+        />
+    -->
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/button"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:shadowRadius="20.0"
+        android:shadowColor="@android:color/holo_red_dark"
+        android:text="One Touch \nChase All Chinese Apps! \nYou Can Do It !\nNation Believes in You!"
+        android:background="@drawable/background"
+        android:textAllCaps="false"
+
+        android:layout_marginBottom="298dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/Share"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_bright"
+        android:background="@drawable/background_2"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:text="Share Your Patriotism"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/LoadingText"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="25dp"
+       android:textSize="20sp"
+       android:textColor="@android:color/holo_red_dark"
+       android:layout_alignParentTop="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/refresh"
+        android:text="Get Wallpaper"
+        android:background="@drawable/background_1"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="italic"
+        android:layout_above="@+id/bottom_navigation"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageViewForResult"
+        android:src="@drawable/congrats1"
+        android:layout_above="@+id/bottom_navigation"
+        android:visibility="invisible"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

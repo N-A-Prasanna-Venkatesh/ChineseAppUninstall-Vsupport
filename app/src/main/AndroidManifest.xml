@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Vsupport.India">
+
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_logo_1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.Vsupport.India.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.Vsupport.India.Congrats"
+            android:label="Congratulations"></activity>
+        <activity
+            android:name="com.Vsupport.India.AboutUs"
+            android:label="About Us"></activity>
+        <activity
+            android:name="com.Vsupport.India.Alternatives"
+            android:label="Alternative Apps"></activity>
+        <activity
+            android:name="com.Vsupport.India.List_of_Chinese_Apps"
+            android:label="Uninstall All Chinese Apps"></activity>
+        <activity
+            android:name="com.Vsupport.India.MainActivity"
+            android:label="@string/app_name">
+
+        </activity>
+    </application>
+
+</manifest>
