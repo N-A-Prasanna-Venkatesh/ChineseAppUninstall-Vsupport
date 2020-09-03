@@ -1,1 +1,1 @@
-This app uninstall all the 59 banned apps which was announced previously in India.
+This app uninstall all the 59 banned chinese apps which was announced in India, before.
